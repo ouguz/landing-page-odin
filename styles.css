@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* CONTENT */
+
+.content-container {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 400px;
+    gap: 50px;
+}
+.content-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    gap: 20px;
+}
+
+/* INFO BOXES */
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.random-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+/* QUOTE */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    min-width: 420px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+/* SIGN UP */
+
+.signup-box {
+    height: 50vh;
+    display: flex;
+    margin: auto;
+}
+
+.signup-background {
+    margin: auto;
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    gap: 60px;
+}
+.texts {
+    color: #F9FAF8;
+}
+
+.text-header {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTONS */
+
+.content-bttn,
+.quote-bttn {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.content-bttn {
+    border-color: #1F2937;
+}
+
+.quote-bttn {
+    border-color: #F9FAF8;
+}
+
+/* IMAGES */
+.header-logo {
+    height: 75px;
+    padding: 5px;
+}
+
+.odin-logo {
+    height: 300px;
+    width: auto;
+}
+
+
+.random-image {
+    height: auto;
+    width: 200px;
+}
